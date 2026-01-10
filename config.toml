@@ -1,0 +1,23 @@
+baseURL = "https://serdeslab.com/"
+languageCode = "en-us"
+title = "SerDes Lab"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+# ❗❗ 确保没有 disableKinds
+# ❗❗ 确保没有 outputs.home = ["RSS"]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  defaultTheme = "auto"
+ 
+mainSections = ["cdr", "posts"]
