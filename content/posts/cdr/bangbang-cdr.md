@@ -7,5 +7,6 @@ title = 'Bangbang Cdr'
 
 ## Introduction
 
-For anyone diving into high-speed interface design, the complexity of SerDes (Serializer/Deserializer) modeling can be overwhelming.
-However, MATLAB’s built-in SerDes Toolbox has changed the game, making it incredibly accessible for beginners and efficient for pros.
+The most powerful feature is the real-time feedback. By adjusting a few parameters, 
+you can immediately observe the impact on Eye Diagrams and BER (Bit Error Rate). 
+This intuitive approach helps you bridge the gap between theoretical equations and physical system behavior.
