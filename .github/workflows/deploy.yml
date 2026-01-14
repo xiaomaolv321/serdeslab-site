@@ -1,6 +1,5 @@
 name: Build and Deploy Hugo to GitHub Pages Repo
-- name: Add CNAME
-  run: echo "serdeslab.com" > public/CNAME
+
 on:
   push:
     branches: ["main"]
@@ -31,6 +30,10 @@ jobs:
 
       - name: Build
         run: hugo --gc --minify
+
+      # ✅ 这里才是正确位置：在 Build 之后、Deploy 之前
+      - name: Add CNAME
+        run: echo "serdeslab.com" > public/CNAME
 
       - name: Deploy to xiaomaolv321.github.io
         uses: peaceiris/actions-gh-pages@v4
