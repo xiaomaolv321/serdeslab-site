@@ -1,5 +1,6 @@
 name: Build and Deploy Hugo to GitHub Pages Repo
-
+- name: Add CNAME
+  run: echo "serdeslab.com" > public/CNAME
 on:
   push:
     branches: ["main"]
